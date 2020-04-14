@@ -16,7 +16,7 @@ def show_cards():
 
     return render_template('cards.html')
 
-app.route('/about')
+@app.route('/about')
 def about_page():
     """about page for futher study section"""
     return render_template('about.html')

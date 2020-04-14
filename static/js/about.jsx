@@ -4,14 +4,14 @@ class About extends React.Component {
   render() {
     return (
       <div>
-        <h3>About page for my react app!</h3>
+        <h5>Look at how cute Balloonicorn is:</h5>
         <img src="/static/img/balloonicorn.jpg"/>
         <br/>
         
-        <a href="/" target="_blank">Go back to homepage</a>
+        <a href="/">Go back to homepage</a>
       </div>
     );
   }
 }
 
-ReactDOM.render(<About />, document.getElementById('#about'));
+ReactDOM.render(<About />, document.getElementById('about'));
